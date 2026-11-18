@@ -1,27 +1,40 @@
 # BackStage
 
-Windows için Python ve PyQt6 ile hazırlanmış sade bir pencere arka plan yöneticisi.
+BackStage, açık uygulamaları kapatmadan arka plana almanızı sağlayan sade bir Windows uygulamasıdır.
 
-## Özellikler
+## Kurulum
 
-- Açık pencereleri listeler.
-- Seçili uygulamayı kapatmadan görev çubuğundan kaldırır.
-- Uygulama arka planda çalışmaya devam eder.
-- F9 ile son gizlenen pencereyi geri getirir.
-- Çift tıklama veya **Arka plana al** butonu ile pencere gizlenebilir.
-- Gizlenen uygulamalar sistem tepsisi menüsünde görünür.
-- Modern açılış animasyonu ve yıldız logolu uygulama ikonu bulunur.
-- Uygulama herhangi bir anonim veri veya cihaz bilgisi göndermez.
+1. `BackStage.exe` dosyasını indirin.
+2. Dosyayı çalıştırın.
+3. Kurulum gerekiyorsa ekrandaki adımları takip edin.
+
+Rust, Python veya Tauri kurmanız gerekmez.
 
 ## Kullanım
 
 1. BackStage’i açın.
-2. Listeden bir pencere seçin.
-3. **Arka plana al** butonuna basın veya pencereye çift tıklayın.
-4. Son gizlenen pencereyi geri getirmek için F9’a basın.
-5. Sistem tepsisindeki BackStage ikonundan gizlenen uygulamaları tek tek açabilirsiniz.
+2. Listeden bir uygulama seçin.
+3. **Arka plana al** düğmesine basın veya pencereye çift tıklayın.
+4. Gizlenen son uygulamayı F9 ile geri getirin.
+5. Gizli uygulamaları sağdaki **Arka Plan** bölümünden açın.
 
-## Notlar
+## Özellikler
 
-Bazı yönetici yetkisiyle çalışan uygulamalar Windows tarafından korunabilir. Böyle uygulamalar için BackStage’i yönetici olarak çalıştırmanız gerekebilir.
+- Uygulamaları kapatmadan görev çubuğundan kaldırma
+- F9 ile hızlı geri getirme
+- Sistem tepsisi desteği
+- Koyu ve sade arayüz
+- Açılış animasyonu
+- Windows uygulama ikonları
+- Bilgi popup’ı
+- Cihaz verisi, webhook veya telemetri göndermez
 
+## Sorun giderme
+
+Bir uygulama görünmüyorsa **Yenile** düğmesine basın. Yönetici olarak çalışan bir uygulama için BackStage’i yönetici olarak çalıştırın.
+
+## Bilgi
+
+Yapımcı Pasha Bey
+
+(c) Pasha Network 2025-2026. All Rights Reserved
